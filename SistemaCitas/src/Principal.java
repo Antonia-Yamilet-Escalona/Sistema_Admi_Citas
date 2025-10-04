@@ -125,7 +125,7 @@ public class Principal {
                 break;
             }
         }
-
+        
         if (doctorAsignado != null && pacienteAsignado != null) {
             citas.add(new Cita(idCita, fechaHora, motivo, doctorAsignado, pacienteAsignado));
             System.out.println("¡Cita creada exitosamente!");
