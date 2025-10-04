@@ -28,6 +28,7 @@ public class Principal {
             System.out.println("Archivo doctores.csv no encontrado, se creará uno nuevo al guardar.");
         }
 
+
         // Cargar Pacientes
         try (BufferedReader br = new BufferedReader(new FileReader("db/pacientes.csv"))) {
             String linea;
